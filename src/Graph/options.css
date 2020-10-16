@@ -1,0 +1,90 @@
+.input-group{
+    display:flex;
+}
+
+
+.Filter
+{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    outline: none;     
+
+}
+
+.heading{
+    color: #000000;
+}
+
+.citySelections{
+    width: 174px!important;
+    height: 46px!important;
+    border-radius: 10px!important;
+    outline: none;
+    border: 2px solid white;
+}
+
+/* .cityOptions{
+    scroll:none
+} */
+
+.dateselection{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    outline: none;
+    text-align: center;
+}
+
+
+.css-yk16xz-control {
+     height: 40px !important;
+    border-radius: 10px !important;
+     border: 2px solid #ffffff !important; 
+     outline: none !important;   
+     /* width:45px !important; */
+}
+
+.saveBtn{
+    background-color: #2727ff;
+    height: 40px;
+     width:80px; 
+    border-radius: 10px;
+    color:#ffffff;
+    font-weight: bold!important;
+    border:none;
+    outline: none;
+}
+
+.cantSave{
+    background-color:#a6a6a6;
+    height: 40px;
+     width:80px; 
+    border-radius: 10px;
+    color:#ffffff;
+    font-weight: bold!important;
+    border:none;
+    outline: none;
+}
+
+.Dropdown-control{
+    width: 175px!important;
+    height: 45px!important;
+    border-radius: 10px!important;
+}
+
+.Dropdown-placeholder{
+    white-space:nowrap;
+}
+
+.SaveButton{
+    padding:40px;
+}
+.Dropdown-menu{
+    overflow-x: hidden;
+}
+
+/* .Dropdown-menu::-webkit-scrollbar {
+    width: 0px!important;  
+    background: transparent!important;  
+  } */

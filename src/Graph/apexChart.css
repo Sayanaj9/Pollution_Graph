@@ -1,0 +1,77 @@
+.graph{
+    background-image: url("./white-cloud-sky.jpg");
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    overflow: hidden;
+    display:flex;
+}
+
+.app{
+   
+    padding: 80px 150px;
+}
+
+.row{
+    background-color: white;
+    width:850px;
+    /* height:690px; */
+}
+
+.options{
+    padding-top:100px ;
+}
+
+.labelstyle{
+    font-weight: bold;
+}
+
+
+.options{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    align-content: center;
+}
+.graphNavbar{
+    height: 40px;
+    background-color:#2727ff;
+
+}
+.optiondata{
+    color: #000000;
+    text-decoration: none;
+}
+
+.unselecteddata{
+    color: black;
+    text-decoration: none;
+}
+
+.nav .active{
+    color: white;
+}
+
+
+@media only screen and  (max-width:1024px)  
+{
+    .app{
+   
+        padding: 20px 40px;
+    }
+    .row{
+        background-color: white;
+        width:450px;
+        /* height:450 !important; */
+    }
+        
+}
