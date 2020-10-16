@@ -11,6 +11,7 @@ class ApexChart extends Component {
       options: {
         chart: {
           id: "basic-bar",
+         
         },
         xaxis:{
            type: "datetime",
@@ -43,6 +44,7 @@ class ApexChart extends Component {
                 fontFamily: 'Helvetica, Arial, sans-serif',
                 fontWeight: 600,
                 cssClass: 'apexcharts-xaxis-title',
+               
             },
         },
         },
@@ -86,7 +88,11 @@ handleData=(data)=>{
 
 
 handleSpinner=(data)=>{
-  this.setState({spinner:data})
+  this.setState({spinner:data});
+  if(data===true)
+  {
+    this.setState({noData:false})
+  }
 }
 
 

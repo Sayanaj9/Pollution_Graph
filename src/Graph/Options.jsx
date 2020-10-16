@@ -22,7 +22,6 @@ function Options(props) {
 
     function handleChange(e){
         
-        console.log(e.value,e.label);
           setCountryData(e.value);
           setSelectedCity(e.label)
     }
@@ -76,7 +75,7 @@ return(
                     <div>
                          <h4 className="heading">Select your City:</h4>
                         
-                        <Dropdown options={cities?.map((city)=>({value:city?.country,label:city?.name}))}   onChange={handleChange} value={selectedCity} placeholder="Select an option" />;
+                        <Dropdown options={cities?.map((city)=>({value:city?.country,label:city?.name}))}  key={selectedCity} onChange={handleChange}  value={selectedCity} placeholder="Select an option" />
                        
                     </div>
                     <div>

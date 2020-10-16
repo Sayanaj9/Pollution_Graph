@@ -62,16 +62,22 @@
 }
 
 
-@media only screen and  (max-width:1024px)  
+ @media only screen and  (max-width:1024px)  
 {
     .app{
    
-        padding: 20px 40px;
+        padding: 20px 0px;
     }
-    .row{
-        background-color: white;
-        width:450px;
-        /* height:450 !important; */
-    }
-        
-}
+    .Dropdown-control {
+        width: 150px!important;
+     }
+        .dateselection {
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid #ffffff;
+            outline: none;
+            text-align: center;
+            width: 145px;
+        }
+         
+} 
